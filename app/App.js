@@ -1,21 +1,13 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import Content from './components/Text.js'
+'use strict'
 
-class App extends React.Component {
-  render() {
+import React, { Component } from 'react'
+
+class App extends Component {
+  render () {
     return (
-      <div>
-        <h1>{Content.title}</h1>
-        <h2>{Content.subtitle}</h2>
-      </div>
-    );
+      <h1>React Stack</h1>
+    )
   }
 }
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
-
-module.hot.accept();
+export default App

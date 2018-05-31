@@ -1,2 +1,2 @@
-# stack-react
-Simples stack de desenvolvimento front-end (webpack + babel-es6 + react). 
+# github-consulting-user
+This is a test for front-end job opportunity on gympass company
